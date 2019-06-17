@@ -3,3 +3,10 @@
     vmImage: windows-2019
   steps:
   - script: echo hello from Windows
+  jobs:
+  - job: build_powerShell_win2019
+    pool:
+      vmImage: windows-2019
+    steps:
+    - powershell: 'test string'
+      displayName: 'Build and Test'
