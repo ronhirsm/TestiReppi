@@ -1,7 +1,7 @@
 jobs:
   - job: Build_PS_Win2016
     pool:
-      vmImage: vs2017-win2016
+      vmImage: windows-2019
     steps:
     - powershell: |
         Write-Host (Get-Date)
