@@ -6,4 +6,8 @@ jobs:
     - powershell: |
         Write-Host (Get-Date)
         Write-Host "This must be the best day of my life"
-      displayName: 'Dummy test'
+      displayName: 'Dummy test 1'
+    - powershell: |
+        Write-Host (Get-Date)
+        Write-Host "This must be the best day of my life"
+      displayName: 'Dummy test 2'
