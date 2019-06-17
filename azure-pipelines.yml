@@ -4,5 +4,6 @@ jobs:
       vmImage: vs2017-win2016
     steps:
     - powershell: |
-        1 / 1
-      displayName: 'Build and Test'
+        Write-Host (Get-Date)
+        Write-Host "This must be the best day of my life"
+      displayName: 'Dummy test'
